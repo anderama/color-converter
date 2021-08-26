@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Conversor de Cores</title>
+</head>
+<body>
+  <div class="container">
+    <div class="wrapper">
+      <label for="rgb">RGB</label>
+      <input type="text" id="rgb" oninput="toHex()" placeholder="Insira um valor RGB">
+    </div>
+    <div class="wrapper">
+      <label for="hex">HEX</label>
+      <input type="text" id="hex" oninput="toRgb()" placeholder="Insira um valor Hex">
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
